@@ -8,7 +8,7 @@ import os
 import glob
 
 # === Load environment variables ===
-BUCKET_NAME = os.environ['MODEL_BUCKET']
+BUCKET_NAME = "data-analytics-prod-2847-kw-region"
 
 # === Step 1: Find the latest CSV in the repo's data folder ===
 csv_files = glob.glob("data/*.csv")
